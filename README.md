@@ -5,7 +5,7 @@ A complete list of all the plugins (Is not yet created), can be found under the 
 
 Here follows the step for usage and installation.
 
-## Prerequisites
+# Prerequisites
 Vim is installed. You can find installation for Vim here (needs git): https://www.vim.org/git.php
 If you have an older version of Vim (< 7.4.1578), It's neccessary to update your Vim to make it work with *You Complete Me*. See *Update Vim*.
 
@@ -36,6 +36,8 @@ make distclean  # if you build Vim before
 make
 sudo make install
 ```
+
+# Installation of Vimrc
 
 ## Step 1 - Creating .vimrc
 ### Alt 1
