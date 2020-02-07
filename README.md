@@ -6,7 +6,14 @@ A complete list of all the plugins (Is not yet created), can be found under the 
 Here follows the step for usage and installation.
 
 ## Step 1 - Creating .vimrc
-Create a fil in ~ and name it .vimrc. Copy-paste the content from this repository's .vimrc-file, into your own .vimrc-file
+### Alt 1
+Clone this repository and copy the ``` .vimrc ``` into the ``` ~ ``` directory.
+
+``` cp .vimrc ~ ```
+
+
+### Alt 2
+Create a file in ~ and name it ``` .vimrc ```. Copy-paste the content from this repository's .vimrc-file, into your own .vimrc-file
 
 ## Step 2 - Installation of Vim Plug and PlugIns
 
