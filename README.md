@@ -11,7 +11,7 @@ Create a fil in ~ and name it .vimrc. Copy-paste the content from this repositor
 ## Step 2 - Installation of Vim Plug and PlugIns
 
 The installation process for vim pulg is automated in the .vimrc file (Unix).
-After creating your .vimrc-file, run  ´´´ :PlugInstall ´´´ to install plugins. 
+After creating your .vimrc-file, run  ``` :PlugInstall ``` to install plugins. 
 
 For more information about usage, see Documentation for Vim Plug : https://github.com/junegunn/vim-plug
 
@@ -26,9 +26,9 @@ To install:
 ## Step 4 - Costimation and Expansion
 Add Plugins and change themes as you see fit. This setup is designed to be used with Vim Plug, information about how to add pulgins and usage can be seen there. 
 
-- Step 1 : Add ´´´ Plug 'github/link/to/pacage' ´´´ in Vim Plug section
+- Step 1 : Add ``` Plug 'github/link/to/pacage' ``` in Vim Plug section
 
-- Step 2 : Reload .vimrc and run ´´´ :PlugInstall ´´´ to install pulgins
+- Step 2 : Reload .vimrc and run ``` :PlugInstall ``` to install pulgins
 
 
 ## Other
