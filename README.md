@@ -43,7 +43,8 @@ sudo make install
 #### Alt 1
 Clone this repository and copy the ``` .vimrc ``` into the ``` ~ ``` directory.
 
-``` cp .vimrc ~ ```
+- ``` cd Vimrc ```
+- ``` cp .vimrc ~ ```
 
 
 #### Alt 2
