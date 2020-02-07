@@ -105,6 +105,10 @@ set laststatus=2        " always show statusline (even with only single window)
 set ruler               " show line and column number of the cursor on right side of statusline
 "set visualbell          " blink cursor on error, instead of beeping
 
+set backspace=indent,eol,start " Allows backspace to work as in most programs
+" set backspace=2 " Almost the same as abov, use if line above doesen't work as intendet
+
+
 " Highlight Lines when in insert-mode
 autocmd InsertEnter,InsertLeave * set cul!
 hi CursorLine cterm=NONE ctermbg=black
