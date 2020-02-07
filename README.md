@@ -49,9 +49,8 @@ Clone this repository and copy the ``` .vimrc ``` into the ``` ~ ``` directory.
 #### Alt 2
 Create a file in ~ and name it ``` .vimrc ```. Copy-paste the content from this repository's .vimrc-file, into your own .vimrc-file
 
+
 ### Step 2 - Installation of Vim Plug and PlugIns
-
-
 
 #### Alt 1 - Automated Installation
 The installation process for vim pulg is automated in the .vimrc file (Unix). Just open your .vimrc (or just any file in vim) and the installation should begin. Grab a cup of coffee.
@@ -80,7 +79,22 @@ To install:
 *NOTE* If you get error saying you are missing python3 header, try installing with just python install.py --clangd-completer
 
 #### Alt 3 - You have an older version of Vim 
-If you get a warning that says YouCompleteMe unavailable: requires Vim 7.4.1578+.
+If you get a warning that says YouCompleteMe unavailable: requires Vim 7.4.1578+. Update vim, see above.
+
+#### Alt 4 - YouCompleteMe unavailable: requires Vim compiled with Python (2.7.1+ or 3.5.1+) support.
+If you get this message, whil stil having Python (2.7.1+ or 3.5.1+), you need to add python to vim.
+You can test if you have python in vim, by running :echo has('python'). If this returns 0, you don't have python (if it returns 1, you have python, and this is'nt your problem)
+
+##### Step 1 - Python to Vim
+- cd vim
+- ./configure --enable-pythoninterp=yes (If you want Python 3 support to be enabled, use --enable-python3interp=yes)
+- cd src (vim/src)
+- make
+- sudo mkake install
+
+##### Step 2 - Install *You Complete Me*
+- cd ~/.vim/Plugged/YouCompleteMe
+- python install.py --clangd-completer (or python3 install.py --clangd-completer)
 
 ### Step 4 - Costimation and Expansion
 Add Plugins and change themes as you see fit. This setup is designed to be used with Vim Plug, information about how to add pulgins and usage can be seen there. 
