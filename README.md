@@ -64,7 +64,7 @@ For more information about installation and usage, see Documentation for Vim Plu
 
 
 ### Step 3 - Special Cases
-For Code-Completion, *You Complete Me*-package is beeing used. 
+For Code-Completion, *You Complete Me*-package is beeing used. You need python 2.7 or 3.6.
 
 #### Alt 1 - It gets installed automatically
 What more to add..
@@ -76,6 +76,8 @@ To install:
 - Remember to build (with clangd, not libclang): 
 - cd ~/.vim/Plugged/YouCompleteMe
 - python3 install.py --clangd-completer
+
+*NOTE* If you get error saying you are missing python3 header, try installing with just python install.py --clangd-completer
 
 #### Alt 3 - You have an older version of Vim 
 If you get a warning that says YouCompleteMe unavailable: requires Vim 7.4.1578+.
