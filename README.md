@@ -9,9 +9,7 @@ Here follows the step for usage and installation.
 ### Alt 1
 Clone this repository and copy the ``` .vimrc ``` into the ``` ~ ``` directory.
 
-``` 
-cp .vimrc ~ 
-```
+``` cp .vimrc ~ ```
 
 
 ### Alt 2
