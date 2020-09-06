@@ -6,9 +6,12 @@ A complete list of all the plugins (Is not yet created), can be found under the 
 Here follows the step for usage and installation.
 
 # Prerequisites
+
+### 1
 Vim is installed. You can find installation for Vim here (needs git): https://www.vim.org/git.php
 If you have an older version of Vim (< 7.4.1578), It's neccessary to update your Vim to make it work with *You Complete Me*. See *Update Vim*.
 
+### 2
 Have curl installed (if not, vim-plug wont install)
 ``` sudo apt install curl ```
 
