@@ -9,6 +9,8 @@ Here follows the step for usage and installation.
 Vim is installed. You can find installation for Vim here (needs git): https://www.vim.org/git.php
 If you have an older version of Vim (< 7.4.1578), It's neccessary to update your Vim to make it work with *You Complete Me*. See *Update Vim*.
 
+Have curl installed (if not, vim-plug wont install)
+``` sudo apt install curl ```
 
 ### Update Vim
 This is perhaps a brute way to do it.. Who knows.
