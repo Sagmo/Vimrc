@@ -6,7 +6,7 @@ A complete list of all the plugins (Is not yet created), can be found under the 
 Here follows the step for usage and installation.
 
 
-# Quic-Guide
+# Quick-Guide
 ### Step 1 - Creating .vimrc
 Clone this repository and copy the ``` .vimrc ``` into the ``` ~ ``` directory.
 - ``` git clone Vimrc ```
