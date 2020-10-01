@@ -5,6 +5,25 @@ A complete list of all the plugins (Is not yet created), can be found under the 
 
 Here follows the step for usage and installation.
 
+
+# Quic-Guide
+### Step 1 - Creating .vimrc
+Clone this repository and copy the ``` .vimrc ``` into the ``` ~ ``` directory.
+- ``` git clone Vimrc ```
+- ``` cd Vimrc ```
+- ``` cp .vimrc ~ ```
+
+### Step 2 - Installation of Vim Plug and PlugIns
+- After creating your .vimrc-file, open vim and let the plugins install.
+- Run  ``` :PlugInstall ``` to install plugins, if install don't happen automatically. 
+
+### Step 3 - Special Cases - YouCompleteMe
+- Remember to build (with clangd, not libclang): 
+- ``` cd ~/.vim/Plugged/YouCompleteMe ```
+- ``` python3 install.py --clangd-completer ```
+
+
+# Full Guide with Alternatives
 # Prerequisites
 
 #### 1
@@ -26,6 +45,7 @@ Follow Step 1 & 2 if Vim is not installed from source.
 
 ##### Red-Hat systems
 ``` sudo yum remove vim ```
+``` sudo dnf remove vim ```
 
 #### Step 2 - Install The Latest Version / Building from Source
 Follow instructions at https://www.vim.org/git.php. Here you will also find information about keeping vim up to date.
@@ -39,7 +59,10 @@ If you already have built from source, you should go into location where you hav
 cd Vim/src
 make distclean  # if you build Vim before
 make
-sudo make install
+sudo make insta
+Kommende
+-/100
+ll
 ```
 
 # Installation of Vimrc
