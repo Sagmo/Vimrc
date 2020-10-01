@@ -9,7 +9,7 @@ Here follows the step for usage and installation.
 # Quick-Guide
 ### Step 1 - Creating .vimrc
 Clone this repository and copy the ``` .vimrc ``` into the ``` ~ ``` directory.
-- ``` git clone Vimrc ```
+- ``` git clone https://github.com/Sagmo/Vimrc.git ```
 - ``` cd Vimrc ```
 - ``` cp .vimrc ~ ```
 
