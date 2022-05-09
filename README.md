@@ -1,11 +1,3 @@
-# Vimrc
-
-Contains my .vimrc-file, and everything i need to set up vim as I like it.
-A complete list of all the plugins (Is not yet created), can be found under the 'Other', and then 'Plug-Ins', section
-
-Here follows the step for usage and installation.
-
-
 # Quick-Guide
 ### Step 1 - Creating .vimrc
 Clone this repository and copy the ``` .vimrc ``` into the ``` ~ ``` directory.
